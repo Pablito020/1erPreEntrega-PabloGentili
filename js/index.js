@@ -21,6 +21,8 @@ const usuario = (valor) => {
    }
   }
 }
+const persona = {name:nombre, edad:usuario(edad)};
+console.log(persona);
 
 // Codigo de ciclo.
 // const max_suma_productos = 100000;
@@ -58,5 +60,3 @@ const usuario = (valor) => {
 // alert("La Suma Total de Productos es: $" + suma_productos.toFixed(2) + " Pesos!");
 // }
 
-const persona = {name:nombre, edad:usuario(edad)};
-console.log(persona);
